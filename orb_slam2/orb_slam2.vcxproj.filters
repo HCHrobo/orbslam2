@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\g2o">
+      <UniqueIdentifier>{7efef567-f28f-4564-afe8-074fc0462159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\g2o">
+      <UniqueIdentifier>{ac328b6b-581f-4099-a970-00d6ff40ec8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DBoW2">
+      <UniqueIdentifier>{c2afcbf6-cf7f-4442-9fc2-56b622589535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DBoW2">
+      <UniqueIdentifier>{ab320d39-fcdc-4252-baad-8b43c50ac2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DBoW2\DUtils">
+      <UniqueIdentifier>{e02ecfa1-5768-459e-abc8-6f21d6ff832a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\g2o\core">
+      <UniqueIdentifier>{91f7767d-5901-4169-bcdd-9148100aceb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\g2o\stuff">
+      <UniqueIdentifier>{923b5efd-c059-48d5-9443-9fb4a99c7e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\g2o\types">
+      <UniqueIdentifier>{7bab9150-bcfa-4cb8-b547-cd66258e608a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\g2o\core">
+      <UniqueIdentifier>{04bbe86f-f41b-41f8-ab44-f26fb37de683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\g2o\solvers">
+      <UniqueIdentifier>{268f9d02-dfbd-42bb-92b6-d527313e134d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\g2o\stuff">
+      <UniqueIdentifier>{8e4bc26d-4f83-41b6-aa6d-fb7f201a0c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\g2o\types">
+      <UniqueIdentifier>{3dd3b22e-39e5-4f75-ad08-728294823448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DBoW2\DUtils">
+      <UniqueIdentifier>{1ed482df-02bf-4068-aad6-3c5d0f8780b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\g2o\solvers">
+      <UniqueIdentifier>{cbe0897d-b1c9-47e8-8ed6-6f994ac54109}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Thirdparty\DBoW2\DBoW2\BowVector.cpp">
+      <Filter>源文件\DBoW2</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\DBoW2\DBoW2\FeatureVector.cpp">
+      <Filter>源文件\DBoW2</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\DBoW2\DBoW2\FORB.cpp">
+      <Filter>源文件\DBoW2</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\DBoW2\DBoW2\ScoringObject.cpp">
+      <Filter>源文件\DBoW2</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\DBoW2\DUtils\Random.cpp">
+      <Filter>源文件\DBoW2\DUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\DBoW2\DUtils\Timestamp.cpp">
+      <Filter>源文件\DBoW2\DUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\batch_stats.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\cache.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\estimate_propagator.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\factory.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\hyper_dijkstra.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\hyper_graph.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\hyper_graph_action.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\jacobian_workspace.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\marginal_covariance_cholesky.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\matrix_structure.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\optimizable_graph.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\optimization_algorithm.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\optimization_algorithm_dogleg.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\optimization_algorithm_factory.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\optimization_algorithm_gauss_newton.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\optimization_algorithm_levenberg.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\optimization_algorithm_with_hessian.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\parameter.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\parameter_container.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\robust_kernel.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\robust_kernel_factory.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\solver.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\core\sparse_optimizer.cpp">
+      <Filter>源文件\g2o\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\stuff\property.cpp">
+      <Filter>源文件\g2o\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\stuff\string_tools.cpp">
+      <Filter>源文件\g2o\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\stuff\timeutil.cpp">
+      <Filter>源文件\g2o\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\types\types_sba.cpp">
+      <Filter>源文件\g2o\types</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\types\types_seven_dof_expmap.cpp">
+      <Filter>源文件\g2o\types</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp">
+      <Filter>源文件\g2o\types</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\g2o\g2o\stuff\os_specific.c">
+      <Filter>源文件\g2o\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Converter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Frame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Initializer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyFrameDatabase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LocalMapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoopClosing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Optimizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ORBextractor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ORBmatcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PnPsolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sim3Solver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tracking.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stereo_kitti.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameDrawer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapDrawer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Viewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\base_binary_edge.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\base_binary_edge.hpp">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\base_edge.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\base_multi_edge.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\base_multi_edge.hpp">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\base_unary_edge.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\base_unary_edge.hpp">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\base_vertex.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\base_vertex.hpp">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\batch_stats.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\block_solver.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\block_solver.hpp">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\cache.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\creators.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\eigen_types.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\estimate_propagator.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\factory.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\g2o_core_api.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\hyper_dijkstra.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\hyper_graph.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\hyper_graph_action.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\jacobian_workspace.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\linear_solver.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\marginal_covariance_cholesky.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\matrix_operations.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\matrix_structure.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\openmp_mutex.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\optimizable_graph.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\optimization_algorithm.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\optimization_algorithm_dogleg.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\optimization_algorithm_factory.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\optimization_algorithm_gauss_newton.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\optimization_algorithm_levenberg.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\optimization_algorithm_property.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\optimization_algorithm_with_hessian.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\parameter.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\parameter_container.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\robust_kernel.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\robust_kernel_factory.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\robust_kernel_impl.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\solver.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\sparse_block_matrix.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\sparse_block_matrix_diagonal.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\sparse_optimizer.h">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\solvers\linear_solver_dense.h">
+      <Filter>头文件\g2o\solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\solvers\linear_solver_eigen.h">
+      <Filter>头文件\g2o\solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\stuff\color_macros.h">
+      <Filter>头文件\g2o\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\stuff\macros.h">
+      <Filter>头文件\g2o\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\stuff\misc.h">
+      <Filter>头文件\g2o\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\stuff\os_specific.h">
+      <Filter>头文件\g2o\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\stuff\property.h">
+      <Filter>头文件\g2o\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\stuff\string_tools.h">
+      <Filter>头文件\g2o\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\stuff\timeutil.h">
+      <Filter>头文件\g2o\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\types\se3_ops.h">
+      <Filter>头文件\g2o\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\types\se3_ops.hpp">
+      <Filter>头文件\g2o\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\types\se3quat.h">
+      <Filter>头文件\g2o\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\types\sim3.h">
+      <Filter>头文件\g2o\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\types\types_sba.h">
+      <Filter>头文件\g2o\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\types\types_seven_dof_expmap.h">
+      <Filter>头文件\g2o\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\types\types_six_dof_expmap.h">
+      <Filter>头文件\g2o\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\DBoW2\DUtils\config.h">
+      <Filter>头文件\DBoW2\DUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\DBoW2\DUtils\Random.h">
+      <Filter>头文件\DBoW2\DUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\DBoW2\DUtils\Timestamp.h">
+      <Filter>头文件\DBoW2\DUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\DBoW2\DBoW2\BowVector.h">
+      <Filter>头文件\DBoW2</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\DBoW2\DBoW2\FClass.h">
+      <Filter>头文件\DBoW2</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\DBoW2\DBoW2\FeatureVector.h">
+      <Filter>头文件\DBoW2</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\DBoW2\DBoW2\FORB.h">
+      <Filter>头文件\DBoW2</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\DBoW2\DBoW2\ScoringObject.h">
+      <Filter>头文件\DBoW2</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\DBoW2\DBoW2\TemplatedVocabulary.h">
+      <Filter>头文件\DBoW2</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\g2o\g2o\core\sparse_block_matrix.hpp">
+      <Filter>头文件\g2o\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Converter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Frame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Initializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KeyFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KeyFrameDatabase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LocalMapping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LoopClosing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MapPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Optimizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ORBextractor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ORBmatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ORBVocabulary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PnPsolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sim3Solver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tracking.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FrameDrawer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MapDrawer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
